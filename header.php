@@ -20,10 +20,34 @@
 	
 
 	<body <?php body_class()?>>
-		<h1> Header </h1>
-		
-		<!-- LOGO URL -->
-		<h1><a href="<?php echo esc_url(home_url('/')) ?>"> LOGO URL</a></h1>
+		<header class="header">
+			<div class="header__inner">
+				<div class="header__logo">
+					<a href="<?php echo esc_url(home_url('/')) ?>">
+						<img src="<?php echo THEME_URL; ?>_dev/img/logo.svg" alt="DBD logo">
+					</a>
+				</div>
+				<div class="hamburger">
+					<span class="hamburger__line1"></span>
+					<span class="hamburger__line2"></span>
+					<span class="hamburger__line3"></span>
+				</div>
+				<nav class="header__nav">
+					<?php wp_nav_menu(['theme_location' => 'main_nav']); ?>
+				</nav>
+				<div class="header__right">
+					<div class="header__cta">
+						<a href="#" class="button">napisz do nas</a>
+					</div>
+					<div class="header__lang">
+						<div class="header__lang-icons">
+							<a href="#"><img src="<?php echo THEME_URL; ?>_dev/img/poland.svg" alt="PL flag"></a>
+						</div>
+						<div class="header__lang-arrow">
+							<img src="<?php echo THEME_URL; ?>_dev/img/chevron-down.svg" alt="arrow-down">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 
-
-		<?php wp_nav_menu(['theme_location' => 'main_nav']); ?>
