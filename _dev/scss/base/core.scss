@@ -5,10 +5,11 @@ html {
 }
 
 body {
-    /*
-    font-family: 'Poiret One', cursive;
-    background-color: #fff;
-    */
+    background-color: $dark;
+    color: $white;
+    font-family: 'Anybody', cursive;
+    font-size: 16px;
+    line-height: 1.5;
 }
 h1, h2, h3, h4 {
     /*
@@ -72,8 +73,6 @@ $breakpoints: (
 }
 
 
-
-
 $container: 80vw;
 $containerMobile: 90vw;
 
@@ -91,3 +90,67 @@ $containerMobile: 90vw;
         margin-top: 0px !important;
     }
 }
+
+.button {
+    color: $white;
+    background: $gradient;
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.button--outline {
+    color: $white;
+    position: relative;
+    padding: 15px 30px;
+    display: inline-flex;
+}
+
+.button--outline::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 20px; 
+    padding: 1px; 
+    background: $gradient; 
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.gradientBorder::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 20px; 
+    padding: 1px; 
+    background: $gradient; 
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+
+
+
+
+
