@@ -4,3 +4,9 @@ $dark: #1D1D1D;
 $white: #FFFFFF;
 $gradient: linear-gradient(137deg, $green 0%, $blue 100%);
 $gradient--revert: linear-gradient(137deg, $blue 0%, $green 100%);
+
+.font-gradient {
+    background: $gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

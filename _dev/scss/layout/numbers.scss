@@ -1,0 +1,16 @@
+.numbers-section {
+    position: relative;
+
+    .numbers-net-bottom-right {
+        position: absolute;
+        right: 5%;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+.numbers-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 0;
+}

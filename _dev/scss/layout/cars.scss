@@ -1,0 +1,56 @@
+@use "sass:color";
+
+.cars-container {
+    position: relative;
+    padding-bottom: 160px;
+
+    .cars-glow {
+        position: absolute;
+        left: 50%;
+        top: 25%;
+        transform: translateX(-50%);
+        z-index: -1;
+        border-radius: 50%;
+        width: 1000px;
+        height: 1000px;
+        background: $gradient;
+        filter: blur(150px);
+    }
+
+    .cars-description-right {
+        position: absolute;
+        right: 0;
+        top: 45%;
+    }
+
+    .cars-description-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+    }
+}
+
+.cars-header-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.cars-buttons {
+    padding-top: 40px;
+
+    & > *:first-child {
+        margin-right: 20px;
+    }
+}
+
+.cars-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cars-main-arrow {
+    margin-top: 50px;
+    margin-left: -120px;
+}
