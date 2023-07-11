@@ -1,10 +1,14 @@
 @import "./base/reset.scss";
 @import "./base/colors.scss";
+@import "./base/typography.scss";
 @import "./base/core.scss";
 
 
 /* ------ Layouts ------ */
 @import "./layout/header.scss";
+@import "./layout/offer.scss";
+@import "./layout/cars.scss";
+@import "./layout/numbers.scss";
 
 
 /* ------ Components ------ */
