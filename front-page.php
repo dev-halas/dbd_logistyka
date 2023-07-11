@@ -1,10 +1,9 @@
 <?php get_header(); ?>
 
-GŁÓWNA
-
-<a href="#" class="button">BUTTON</a>
-
-<a href="#" class="button--outline">BUTTON</a>
-
+    <main>
+        <?php 
+            get_template_part('/components/home/hero');
+        ?>
+    </main>
 
 <?php get_footer(); ?>

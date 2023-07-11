@@ -39,14 +39,28 @@
 					<div class="header__cta">
 						<a href="#" class="button">napisz do nas</a>
 					</div>
-					<div class="header__lang">
-						<div class="header__lang-icons">
-							<a href="#"><img src="<?php echo THEME_URL; ?>_dev/img/poland.svg" alt="PL flag"></a>
-						</div>
-						<div class="header__lang-arrow">
-							<img src="<?php echo THEME_URL; ?>_dev/img/chevron-down.svg" alt="arrow-down">
-						</div>
-					</div>
+					<ul class="header__lang">
+						<li class="header__lang--active">
+							<div class="header__lang-icons">
+								<a href="#"><img src="<?php echo THEME_URL; ?>_dev/img/poland.svg" alt="PL flag"></a>
+							</div>
+							<div class="header__lang-arrow">
+								<img src="<?php echo THEME_URL; ?>_dev/img/chevron-down.svg" alt="arrow-down">
+							</div>
+						</li>
+						<ul class="header__langItems">
+							<li class="header__langItem">
+								<div class="header__lang-icons">
+									<a href="#"><img src="<?php echo THEME_URL; ?>_dev/img/uk.svg" alt="PL flag"></a>
+								</div>
+							</li>
+							<li class="header__langItem">
+								<div class="header__lang-icons">
+									<a href="#"><img src="<?php echo THEME_URL; ?>_dev/img/germany.svg" alt="PL flag"></a>
+								</div>
+							</li>
+						</ul>
+					</ul>
 				</div>
 			</div>
 		</header>
