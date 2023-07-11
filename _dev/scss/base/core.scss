@@ -180,7 +180,7 @@ $containerMobile: 90vw;
 }
 
 .gradient-outline-tile {
-    width: 400px;
+    width: calculate-clamp(250,400);
     height: 375px;
     flex-shrink: 0;
     display: flex;
@@ -201,6 +201,14 @@ $containerMobile: 90vw;
         &:hover {
             transform: none;
         }
+    }
+
+    @include responsive('tablet') {
+        width: 400px;
+    }
+
+    @include responsive('mobile') {
+        width: 100%;
     }
 }
 

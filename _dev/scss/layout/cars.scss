@@ -21,12 +21,33 @@
         position: absolute;
         right: 0;
         top: 45%;
+
+        @include responsive('tablet') {
+            top: 40%;
+        }
+
+        @include responsive('small') {
+            position: static;
+            margin: auto;
+            margin-top: 100px;
+        }
     }
 
     .cars-description-bottom {
         position: absolute;
         bottom: 0;
         left: 25%;
+
+        @include responsive('tablet') {
+            bottom: -10%;
+            left: 0;
+        }
+
+        @include responsive('small') {
+            position: static;
+            margin: auto;
+            margin-top: 60px;
+        }
     }
 }
 
@@ -34,13 +55,34 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 120px;
+
+    @include responsive('small') {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 .cars-buttons {
     padding-top: 40px;
 
+    @include responsive('tablet') {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        .button--outline {
+            justify-content: center;
+            width: 100%;
+        }
+    }
+
     & > *:first-child {
         margin-right: 20px;
+
+        @include responsive('tablet') {
+            margin: 0;
+        }
     }
 }
 
@@ -48,9 +90,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 60px;
 }
 
 .cars-main-arrow {
     margin-top: 50px;
     margin-left: -120px;
+
+    @include responsive('tablet') {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+}
+
+.cars-image {
+    transform: scale(1.3);
 }
