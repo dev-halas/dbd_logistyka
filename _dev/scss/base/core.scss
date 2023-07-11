@@ -8,10 +8,11 @@ html {
 body {
     background-color: $dark;
     color: $white;
-    font-family: 'Anybody', cursive;
+    font-family: 'Anybody', sans-serif;
     font-size: 16px;
     font-weight: 200;
     line-height: 1.5;
+    min-height: 200vh;
 }
 h1, h2, h3, h4 {
     /*
@@ -90,10 +91,20 @@ $breakpoints: (
 
 
 $container: 90vw;
+$containerSmall: 75vw;
 $containerMobile: 90vw;
 
 .container {
     width: min($container, 1520px);
+    margin: 0 auto;
+    position: relative;
+    @include responsive('tablet') {
+        width: min($containerMobile, 900px);
+    }
+}
+
+.container--small {
+    width: min($containerSmall, 1320px);
     margin: 0 auto;
     position: relative;
     @include responsive('tablet') {
@@ -115,6 +126,7 @@ $containerMobile: 90vw;
     font-weight: 400;
     justify-content: center;
     align-items: center;
+    width: fit-content;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -139,6 +151,7 @@ $containerMobile: 90vw;
     color: $white;
     position: relative;
     padding: 12px 30px;
+    width: fit-content;
     display: inline-flex;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
@@ -212,8 +225,26 @@ $containerMobile: 90vw;
     }
 }
 
+.gradientBG {
+    background-color: $green;
+    background-image: $gradient;
+}
 
+.radius30 {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
 
-
+.gradientText {
+    background-image: $gradient;
+    width: fit-content;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
 
 
