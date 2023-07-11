@@ -1,5 +1,5 @@
 <section id="cars">
-    <div class="cars-container container">
+    <div class="cars-container container--small">
         <div class="cars-header-buttons">
             <div class="cars-header">
                 <h2><span class="font-gradient">Flota</span><div>DBD Trans</div></h2>

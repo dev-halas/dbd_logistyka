@@ -91,10 +91,20 @@ $breakpoints: (
 
 
 $container: 90vw;
+$containerSmall: 75vw;
 $containerMobile: 90vw;
 
 .container {
     width: min($container, 1520px);
+    margin: 0 auto;
+    position: relative;
+    @include responsive('tablet') {
+        width: min($containerMobile, 900px);
+    }
+}
+
+.container--small {
+    width: min($containerSmall, 1320px);
     margin: 0 auto;
     position: relative;
     @include responsive('tablet') {
