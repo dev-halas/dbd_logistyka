@@ -1,0 +1,59 @@
+.contact-container {
+    padding-bottom: 240px;
+
+    .glassed {
+        right: 0;
+        top: 20%;
+        padding: 3vw;
+        gap: 1.5vw;
+        justify-content: flex-start;
+    }
+}
+
+.contact-info {
+    display: flex;
+    align-items: flex-end;
+
+    @include responsive('tablet') {
+        flex-direction: column;
+        align-items: initial;
+    }
+}
+
+.contact-header {
+    margin-bottom: 100px;
+}
+
+.contact-image {
+    flex: 1;
+}
+
+.contact-people {
+    display: flex;
+    gap: 100px;
+
+    @include responsive('small') {
+        flex-direction: column;
+    }
+}
+
+.contact-person {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-flags {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-loop-parent {
+    position: relative;
+
+    .contact-loop {
+        position: absolute;
+        left: 0;
+        top: -10px;
+    }
+}

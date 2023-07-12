@@ -10,7 +10,7 @@
                 </linearGradient>
                 </defs>
             </svg>
-            <h3>Flota najnowszych <div>aut</div></h3>
+            <h2>Flota najnowszych <div>aut</div></h2>
             <div>
                 <button>WIĘCEJ</button>
                 <svg width="32" height="8" viewBox="0 0 32 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +28,7 @@
                 </linearGradient>
                 </defs>
             </svg>
-            <h3>Pomoc <div>24h/7</div></h3>
+            <h2>Pomoc <div>24h/7</div></h2>
             <div>
                 <button>WIĘCEJ</button>
                 <svg width="32" height="8" viewBox="0 0 32 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@
                 </defs>
             </svg>
 
-            <h3>Ekologiczne podejście <div>do transportu</div></h3>
+            <h2>Ekologiczne podejście <div>do transportu</div></h2>
             <div>
                 <button>WIĘCEJ</button>
                 <svg width="32" height="8" viewBox="0 0 32 8" fill="none" xmlns="http://www.w3.org/2000/svg">

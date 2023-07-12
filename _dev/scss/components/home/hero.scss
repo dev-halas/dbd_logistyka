@@ -185,3 +185,53 @@
     gap: 15px;
     margin-top: 10%;
 }
+
+.contact-page {
+    .heroSquare {    
+        @include responsive('tablet') {
+            width: min(50vw, 400px);
+        }
+    }
+
+    .heroWelcome__right {    
+        @include responsive('tablet') {
+            margin-top: 25%;
+        }
+    }
+
+    .heroPerson {
+        @include responsive('tablet') {
+            align-self: flex-end;
+        }
+
+        &::before {
+            @include responsive('tablet') {
+                border-radius: 15px;
+                -webkit-border-radius: 15px;
+                -moz-border-radius: 15px;
+                -ms-border-radius: 15px;
+                -o-border-radius: 15px;
+            }
+        }
+    }
+
+    .glassed {
+        @include responsive('tablet') {
+            right: 25%;
+            transform: translateY(-30%);
+            -webkit-transform: translateY(-30%);
+            -moz-transform: translateY(-30%);
+            -ms-transform: translateY(-30%);
+            -o-transform: translateY(-30%);
+            gap: 15px;
+            padding: 20px;
+        }  
+    }
+
+    .heroWelcome__content {    
+        @include responsive('tablet') {
+            flex-direction: column;
+            margin-right: 0;
+        }
+    }
+}
