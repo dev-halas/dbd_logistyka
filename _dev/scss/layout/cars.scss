@@ -11,10 +11,14 @@
         transform: translateX(-50%);
         z-index: -1;
         border-radius: 50%;
-        width: 1000px;
-        height: 1000px;
+        width: 80vw;
+        height: 80vw;
         background: $gradient;
         filter: blur(150px);
+
+        @include responsive('tablet') {
+            top: 40%;
+        }
     }
 
     .cars-description-right {
@@ -107,8 +111,4 @@
         margin-left: 0;
         margin-top: 25px;
     }
-}
-
-.cars-image {
-    transform: scale(1.3);
 }
