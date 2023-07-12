@@ -12,3 +12,5 @@
             get_template_part('/components/offer/offer-cars');
         ?>
     </main>
+
+<?php get_footer(); ?>
