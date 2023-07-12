@@ -1,0 +1,96 @@
+.footer {
+    position: relative;
+}
+
+.footerInner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    align-items: center;
+    padding: 100px 0 50px;
+    h3 {
+        font-weight: 800;
+        font-size: clamp(24px, 1.7vw, 36px);
+    }
+}
+
+.footerInner__full {
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    span {
+        display: block;
+        width: 100%;
+        height: 1.5px;
+        background-color: $grey;
+    }
+}
+
+.footerInner__col {
+    @include responsive('tablet') {
+        grid-column: span 2;
+    }
+}
+
+.footer__comapnyInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footer__contactPersons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    @include responsive('tablet') {
+        gap: 16px;
+        grid-template-columns: 1fr 1fr;
+        
+        a {
+            font-size: 14px;
+        }
+    }
+}
+
+.footer__contactPerson {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    a {
+        display: block;
+    }
+}
+
+.footerFlags {
+    display: flex;
+    gap: 8px;
+}
+
+.footerInner__copy {
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    @include responsive('tablet') {
+        flex-direction: column;
+        gap: 10px;
+
+        strong {
+            display: block;
+        }
+    }
+}
+
+.footerCopy {
+    display: flex;
+    gap: 50px;
+    
+    @include responsive('tablet') {
+        gap: 10px;
+        flex-direction: column;
+    }
+}
