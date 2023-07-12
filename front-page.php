@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <main style="overflow:hidden;">
+    <main>
         <?php 
             get_template_part('/components/home/hero');
             get_template_part('/components/home/offer');
