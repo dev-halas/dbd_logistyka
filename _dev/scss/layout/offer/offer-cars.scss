@@ -1,3 +1,14 @@
+.offer-cars-container {
+    position: relative;
+
+    .offer-cars-net {
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        z-index: -1;
+    }
+}
+
 .offer-cars-header {
     display: flex;
     align-items: center;
@@ -14,9 +25,27 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10vw 1vw;
+    position: relative;
 
     @include responsive('tablet') {
         grid-template-columns: 1fr;
+    }
+
+    .offer-cars-glow {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        border-radius: 50%;
+        width: 40vw;
+        height: 40vw;
+        background: $gradient;
+        filter: blur(150px);
+
+        @include responsive('tablet') {
+            display: none;
+        }
     }
 }
 
