@@ -1,0 +1,123 @@
+.contact {
+    position: relative;
+}
+
+.contactInner {
+    max-width:  800px;
+    margin: auto;
+    padding: 12vh 0;
+}
+
+.contactText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+        margin-top: 30px;
+    }
+
+    padding-bottom: 50px;
+}
+
+.contactForm {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+    .contactForm--col {
+        grid-column: span 1;
+    }
+
+    .contactForm--full {
+        grid-column: span 2;
+        @include responsive('small'){
+            grid-column: span 1;
+        }
+    }
+
+    input.wpcf7-text, textarea {
+        width: 100%;
+        font-weight: 400;
+        background-color: $grey;
+        color: $white;
+        padding: 20px 40px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        border: none;
+
+        @include responsive('small') {
+            padding: 12px  24px;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+    }
+
+    input.wpcf7-text::placeholder, textarea::placeholder {
+        color: $dark;
+    }
+
+    .wpcf7-not-valid-tip {
+        padding: 5px 30px;
+        color: rgb(233, 81, 81);
+    }
+
+    .contactForm--rodo {
+        font-size: 14px;
+        color: #797979;
+        display: flex;
+        gap: 16px;
+
+        .wpcf7-acceptance {
+            label {
+                display: flex;
+                gap: 16px;
+                align-items: baseline;
+            }
+        }
+
+        input[type="checkbox"] {
+            position: relative;
+        }
+
+        input[type="checkbox"]::after {
+            content: '';
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            background-color: #797979;
+        }
+
+        input[type="checkbox"]:checked::before {
+            content: '';
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            background: $gradient;
+            left: 4px;
+            top: 4px;
+            z-index: 1;
+        }
+    }
+
+    .wpcf7-spinner {
+        display: none;
+    }
+
+    .contactForm--submit {
+        text-align: center;
+    }
+
+    @include responsive('small') {
+        grid-template-columns: 1fr;
+    }
+
+}

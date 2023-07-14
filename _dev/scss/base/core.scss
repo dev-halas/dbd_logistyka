@@ -123,7 +123,7 @@ $containerMobile: 90vw;
     }
 }
 
-.button {
+.button, .wpcf7-submit {
     color: $white;
     background: $gradient;
     display: inline-flex;
@@ -142,9 +142,10 @@ $containerMobile: 90vw;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
+    border: none;
 }
 
-.button:hover {
+.button:hover, .wpcf7-submit:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);

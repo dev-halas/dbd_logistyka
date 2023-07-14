@@ -18,6 +18,10 @@
                 <div class="heroWelcome__content">
                     <div class="heroSquare heroPerson">
                         <img src="<?php echo THEME_URL; ?>_dev/img/hero-man.png" alt="">
+                        <div class="heroCta">
+                            auta
+                            <img src="<?php echo THEME_URL; ?>_dev/img/hero-plus.svg" alt="">
+                        </div>
                     </div>
                     <div class="heroRight__content">
                         <img src="<?php echo THEME_URL; ?>_dev/img/ikona-jezyk.svg" alt="">
@@ -25,10 +29,25 @@
                         <span>Polski, Niemiecki, Angielski</span>
                     </div>
                 </div>
-
-
             </div>
         </div>
-
+    </div>
+    <div class="heroCols container--small">
+        <div class="heroCol">
+            <h2 class="h1">
+                Kilka<br/>
+                słów<br/>
+                o nas
+            </h2>
+        </div>
+        <div class="heroCol">
+            Lorem ipsum dolor sit amet consectetur. Tellus non quis mattis sed eu pharetra consectetur. Nunc ipsum egestas nunc posuere amet volutpat sed. Turpis tellus congue massa quis feugiat magna feugiat tincidunt eu. Quam porttitor aliquam tristique dignissim imperdiet ullamcorper. Tortor morbi ornare auctor vitae morbi vitae scelerisque adipiscing elementum.<br/><br/>
+            Ipsum tempor dui viverra neque nisl phasellus ut. Praesent non suspendisse eget eget. Blandit morbi est orci ultricies nunc netus interdum 
+        </div>
+        <div class="heroCol">
+            Lorem ipsum dolor sit amet consectetur. Tellus non quis mattis sed eu pharetra consectetur. Nunc ipsum egestas nunc posuere amet volutpat sed. Turpis tellus congue massa quis feugiat magna feugiat tincidunt eu. Quam porttitor aliquam tristique dignissim imperdiet ullamcorper. Tortor morbi ornare auctor vitae morbi vitae scelerisque adipiscing elementum.<br/><br/>
+            Ipsum tempor dui viverra neque nisl phasellus ut. Praesent non suspendisse eget eget. Blandit morbi est orci ultricies nunc netus interdum 
+        </div>
     </div>
 </section>
+

@@ -186,6 +186,22 @@
     margin-top: 10%;
 }
 
+.heroCols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5vw;
+    @include responsive('small') {
+        grid-template-columns: 1fr;
+        .heroCol {
+            h2 br {
+                display: none;
+            }
+        }
+    }
+
+
+}
+
 .contact-page {
     .heroSquare {    
         @include responsive('tablet') {
@@ -234,4 +250,58 @@
             margin-right: 0;
         }
     }
+}
+
+.heroCta {
+    position: absolute;
+    width: clamp(80px, 7vw, 140px);
+    height: clamp(80px, 7vw, 140px);
+    background-color: $white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    color: $dark;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+
+    img {
+        transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+    }
+}
+
+.heroCta:hover {
+    img {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+    }
+    transform: scale(1.05) translate(-50%, 50%);
+    -webkit-transform: scale(1.05) translate(-50%, 50%);
+    -moz-transform: scale(1.05) translate(-50%, 50%);
+    -ms-transform: scale(1.05) translate(-50%, 50%);
+    -o-transform: scale(1.05) translate(-50%, 50%);
 }

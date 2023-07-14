@@ -1,15 +1,15 @@
 <section id="numbers" class="numbers-section">
     <div class="numbers-container container--small">
         <div class="numbers-info">
-            <h3 class="font-gradient h2">48 500 km+</h3>
+            <h3 class="font-gradient h1">48 500 km+</h3>
             <p>przejechanych w 2023 roku przez <br/> pojazdy, które obsługiwaliśmy.</p>
         </div>
         <div class="numbers-info">
-            <h3 class="font-gradient h2">650+</h3>
+            <h3 class="font-gradient h1">650+</h3>
             <p>obsłużonych zleceń.</p>
         </div>
         <div class="numbers-info">
-            <h3 class="font-gradient h2">12</h3>
+            <h3 class="font-gradient h1">12</h3>
             <p>przejechanych krajów.</p>
         </div>
     </div>
