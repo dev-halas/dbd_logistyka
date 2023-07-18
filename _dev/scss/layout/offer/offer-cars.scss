@@ -79,6 +79,7 @@
     
     .gradient-outline-tile {
         padding: 1.5vw;
+        width: 100%;
 
         @include responsive('tablet') {
             width: min(40vw, 400px);

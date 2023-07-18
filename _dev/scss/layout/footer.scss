@@ -4,7 +4,7 @@
 
 .footerInner {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 50px;
     align-items: center;
     padding: 100px 0 50px;
@@ -15,7 +15,7 @@
 }
 
 .footerInner__full {
-    grid-column: span 2;
+    grid-column: span 3;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -28,9 +28,17 @@
     }
 }
 
-.footerInner__col {
+.footerInner__colLeft {
+    grid-column: span 2;
     @include responsive('tablet') {
-        grid-column: span 2;
+        grid-column: span 3;
+    }
+}
+
+.footerInner__colRight {
+    grid-column: span 1;
+    @include responsive('tablet') {
+        grid-column: span 3;
     }
 }
 
@@ -42,7 +50,7 @@
 
 .footer__contactPersons {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 32px;
     @include responsive('tablet') {
         gap: 16px;

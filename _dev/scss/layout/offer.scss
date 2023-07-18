@@ -5,7 +5,7 @@
     gap: 50px;
 
     @include responsive('tablet') {
-        grid-template-columns: unset;
+        grid-template-columns: 1fr;
         justify-content: center;
         gap: 60px;
     }

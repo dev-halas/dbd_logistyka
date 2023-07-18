@@ -10,4 +10,6 @@ $gradient--revert: linear-gradient(137deg, $blue 0%, $green 100%);
     background: $gradient;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    width: fit-content;
+    font-weight: 800;
 }

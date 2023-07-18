@@ -1,0 +1,20 @@
+.offerHeader {
+    padding: 10vh 0;
+}
+
+.offerHeader__cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+    @include responsive('tablet') {
+        grid-template-columns: 1fr;
+    }
+}
+
+.offerHeader__col {
+    grid-column: span 1;
+
+    p {
+        margin-bottom: 32px;
+    }
+}

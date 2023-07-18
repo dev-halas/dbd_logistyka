@@ -40,7 +40,7 @@ button {
 }
 
 h1 {
-    font-size: calculate-clamp(36, 72);
+    font-size: calculate-clamp(32, 64);
     font-weight: 800;
     line-height: 1.1;
 }
@@ -198,6 +198,10 @@ $containerMobile: 90vw;
     mask-composite: exclude;
 }
 
+.gradientBorder {
+    position: relative;
+}
+
 .gradient-outline-tile {
     aspect-ratio: 38/36;
     display: flex;
@@ -209,15 +213,15 @@ $containerMobile: 90vw;
     background: color.adjust($dark, $alpha: -0.6);
     border-radius: 30px;
     gap: 10px;
-    @extend .button--outline;
+    @extend .gradientBorder;
 
-    &, .button--outline {
+    &.gradientBorder {
         &:before {
             border-radius: 30px;
-        }
-    
-        &:hover {
-            transform: none;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -ms-border-radius: 30px;
+            -o-border-radius: 30px;
         }
     }
 

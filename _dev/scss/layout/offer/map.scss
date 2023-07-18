@@ -1,0 +1,64 @@
+.mapSvg {
+    position: relative;
+    padding-bottom: 10vh;
+    @include responsive('small') {
+        padding-top: 15vh;
+    }
+}
+
+.mapSvg__map {
+    img {
+        margin: auto;
+    }
+}
+
+.mapElipse {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-image: $gradient;
+    width: 42vw;
+    height: 42vw;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    filter: blur(6vw);
+    -webkit-filter: blur(6vw);
+    transform: translate(-50%, -25%);
+    -webkit-transform: translate(-50%, -25%);
+    -moz-transform: translate(-50%, -25%);
+    -ms-transform: translate(-50%, -25%);
+    -o-transform: translate(-50%, -25%);
+}
+
+.mapSquare {
+    aspect-ratio: 38 / 35;
+    background: rgba(29, 29, 29, 0.09);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: max(16px, 2vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    width: max(180px, 25%);
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+    img {
+        max-width: 36px;
+    }
+
+    h2 {
+        font-size: clamp(16px, 1.75vw, 32px);
+    }
+
+    @include responsive('small') {
+        left: 0;
+        top: 12%;
+    }
+}
