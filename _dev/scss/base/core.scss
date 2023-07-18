@@ -225,11 +225,11 @@ $containerMobile: 90vw;
         width: min(30vw,400px);
 
         @include responsive('tablet') {
-            width: min(35vw,400px);
+            
         }
 
         @include responsive('small') {
-            width: 400px;
+           
         }
 
         @include responsive('mobile') {
@@ -238,12 +238,14 @@ $containerMobile: 90vw;
     }
 
     @include responsive('tablet') {
-        width: 400px;
         padding: 40px;
     }
 
     @include responsive('mobile') {
         width: 100%;
+        padding: 32px;
+        aspect-ratio: initial;
+        gap: 24px;
     }
 }
 

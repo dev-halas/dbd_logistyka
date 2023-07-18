@@ -4,8 +4,8 @@
     padding: 240px 0;
     gap: 50px;
 
-    @include responsive('tablet') {
-        grid-template-columns: unset;
+    @include responsive('small') {
+        grid-template-columns: 1fr;
         justify-content: center;
         gap: 60px;
     }
