@@ -36,10 +36,10 @@
                 </div>
             </div>
             <div class="cars-image">
-                <img class="active" src="<?php echo THEME_URL; ?>_dev/img/iveco1.png" alt="pojazd iveco daily do 12 miejsc paletowych">
-                <img src="<?php echo THEME_URL; ?>_dev/img/iveco2.png" alt="pojazd iveco daily do 15 miejsc paletowych">
-                <img src="<?php echo THEME_URL; ?>_dev/img/iveco3.png" alt="pojazd iveco daily do 16 miejsc paletowych">
-                <img src="<?php echo THEME_URL; ?>_dev/img/iveco4.png" alt="pojazd iveco daily do 21 miejsc paletowych">
+                <img class="active" src="<?php echo THEME_URL; ?>_dev/img/12-palet-iveco.png" alt="pojazd iveco daily do 12 miejsc paletowych">
+                <img src="<?php echo THEME_URL; ?>_dev/img/15-palet-iveco.png" alt="pojazd iveco daily do 15 miejsc paletowych">
+                <img src="<?php echo THEME_URL; ?>_dev/img/16-palet-iveco.png" alt="pojazd iveco daily do 16 miejsc paletowych">
+                <img src="<?php echo THEME_URL; ?>_dev/img/21-palet-iveco.png" alt="pojazd iveco daily do 21 miejsc paletowych">
             </div>
         </div>
         <div class="gradient-outline-tile specified-width cars-description-right">
@@ -88,15 +88,15 @@
                 </div>
                 <div class="cars-description-bottom-text">
                     <p>Wymiar paki</p>
-                    <h3 class="h2">505x245x280cm</h3>
+                    <h3 class="h2">610x245x293cm</h3>
                 </div>
                 <div class="cars-description-bottom-text">
                     <p>Wymiar paki</p>
-                    <h3 class="h2">505x245x280cm</h3>
+                    <h3 class="h2">660x245x280cm</h3>
                 </div>
                 <div class="cars-description-bottom-text">
                     <p>Wymiar paki</p>
-                    <h3 class="h2">505x245x280cm</h3>
+                    <h3 class="h2">660x245x280cm</h3>
                 </div>
             </div>
         </div>
