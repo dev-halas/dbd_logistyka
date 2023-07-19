@@ -1,8 +1,8 @@
 const header = document.querySelector('.header');
 const hamburger = document.querySelector('.hamburger');
 const headerLinks = document.querySelectorAll('.header__nav a');
-const headerLangTrigger = document.querySelector('.header__lang--active');
-const headerLang = document.querySelector('.header__lang');
+//const headerLangTrigger = document.querySelector('.header__lang--active');
+//const headerLang = document.querySelector('.header__lang');
 const pageHeight = window.innerHeight * 0.1;
 
 hamburger.addEventListener('click', () => {
@@ -15,9 +15,9 @@ headerLinks.forEach((link) => {
     })
 })
 
-headerLangTrigger.addEventListener('click', () => {
-    headerLang.classList.toggle('--openLang')
-})
+// headerLangTrigger.addEventListener('click', () => {
+//     headerLang.classList.toggle('--openLang')
+// })
 
 window.onscroll = () => {
     let top = window.scrollY;

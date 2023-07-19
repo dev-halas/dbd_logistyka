@@ -39,6 +39,8 @@
 					<div class="header__cta">
 						<a href="<?php echo esc_url(home_url('/')) ?>#contact-us" class="button">napisz do nas</a>
 					</div>
+					<?php echo do_shortcode('[gtranslate]'); ?>
+					<!--
 					<ul class="header__lang">
 						<li class="header__lang--active">
 							<div class="header__lang-icons">
@@ -61,6 +63,7 @@
 							</li>
 						</ul>
 					</ul>
+					-->
 				</div>
 			</div>
 		</header>
