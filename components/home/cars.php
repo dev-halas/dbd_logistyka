@@ -9,10 +9,10 @@
                 </p>
             </div>
             <div class="cars-buttons">
-                <button class="button">Iveco Daily 12 palet</button>
-                <button class="button--outline">Iveco Daily 15 palet</button>
-                <button class="button--outline">Iveco Daily 16 palet</button>
-                <button class="button--outline">Iveco Daily 21 palet</button>
+                <button class="active">Iveco Daily 12 palet</button>
+                <button>Iveco Daily 15 palet</button>
+                <button>Iveco Daily 16 palet</button>
+                <button>Iveco Daily 21 palet</button>
             </div>
         </div>
         <div class="cars-main">
@@ -36,7 +36,10 @@
                 </div>
             </div>
             <div class="cars-image">
-                <img src="<?php echo THEME_URL; ?>_dev/img/iveco-daily.png" alt="pojazd iveco">
+                <img class="active" src="<?php echo THEME_URL; ?>_dev/img/iveco1.png" alt="pojazd iveco daily do 12 miejsc paletowych">
+                <img src="<?php echo THEME_URL; ?>_dev/img/iveco2.png" alt="pojazd iveco daily do 15 miejsc paletowych">
+                <img src="<?php echo THEME_URL; ?>_dev/img/iveco3.png" alt="pojazd iveco daily do 16 miejsc paletowych">
+                <img src="<?php echo THEME_URL; ?>_dev/img/iveco4.png" alt="pojazd iveco daily do 21 miejsc paletowych">
             </div>
         </div>
         <div class="gradient-outline-tile specified-width cars-description-right">
@@ -50,8 +53,22 @@
                 </defs>
             </svg>
             <div>
-                <p>Ilość miejsc paletowych</p>
-                <h3 class="h2">do 12</h3>
+                <div class="cars-description-right-text active">
+                    <p>Ilość miejsc paletowych</p>
+                    <h3 class="h2">do 12</h3>
+                </div>
+                <div class="cars-description-right-text">
+                    <p>Ilość miejsc paletowych</p>
+                    <h3 class="h2">do 15</h3>
+                </div>
+                <div class="cars-description-right-text">
+                    <p>Ilość miejsc paletowych</p>
+                    <h3 class="h2">do 16</h3>
+                </div>
+                <div class="cars-description-right-text">
+                    <p>Ilość miejsc paletowych</p>
+                    <h3 class="h2">do 21</h3>
+                </div>
             </div>
         </div>
         <div class="gradient-outline-tile specified-width cars-description-bottom">
@@ -65,8 +82,22 @@
                 </defs>
             </svg>
             <div>
-                <p>Wymiar paki</p>
-                <h3 class="h2">505x245x280cm</h3>
+                <div class="cars-description-bottom-text active">
+                    <p>Wymiar paki</p>
+                    <h3 class="h2">505x245x280cm</h3>
+                </div>
+                <div class="cars-description-bottom-text">
+                    <p>Wymiar paki</p>
+                    <h3 class="h2">505x245x280cm</h3>
+                </div>
+                <div class="cars-description-bottom-text">
+                    <p>Wymiar paki</p>
+                    <h3 class="h2">505x245x280cm</h3>
+                </div>
+                <div class="cars-description-bottom-text">
+                    <p>Wymiar paki</p>
+                    <h3 class="h2">505x245x280cm</h3>
+                </div>
             </div>
         </div>
         <div class="cars-glow"></div>

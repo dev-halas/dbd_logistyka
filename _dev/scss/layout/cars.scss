@@ -25,6 +25,11 @@
         position: absolute;
         right: 0;
         top: 45%;
+        display: block;
+
+        svg {
+            margin-bottom: 10px;
+        }
 
         @include responsive('tablet') {
             top: 40%;
@@ -40,6 +45,11 @@
         position: absolute;
         bottom: 0;
         left: 18%;
+        display: block;
+
+        svg {
+            margin-bottom: 10px;
+        }
 
         @include responsive('tablet') {
             bottom: -10%;
@@ -104,14 +114,6 @@
             width: 100%;
         }
     }
-
-    & > *:first-child {
-        margin-right: 20px;
-
-        @include responsive('tablet') {
-            margin: 0;
-        }
-    }
 }
 
 .cars-main {
@@ -128,5 +130,51 @@
     @include responsive('tablet') {
         margin-left: 0;
         margin-top: 25px;
+    }
+}
+
+.cars-buttons > button {
+    @extend .button--outline;
+    width: 210px;
+
+    &.active {
+        @extend .button;
+        width: 100%;
+    }
+}
+
+.cars-image > img {
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    @include transition(opacity, visibility);
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        @include transition(opacity, visibility);
+    }
+}
+
+.cars-description-right-text {
+    opacity: 0;
+    transform: scale(0);
+    height: 0;
+
+    &.active {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.cars-description-bottom-text {
+    opacity: 0;
+    transform: scale(0);
+    height: 0;
+
+    &.active {
+        opacity: 1;
+        transform: scale(1);
     }
 }
