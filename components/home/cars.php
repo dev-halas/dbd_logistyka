@@ -9,8 +9,10 @@
                 </p>
             </div>
             <div class="cars-buttons">
-                <button class="button">Iveco Daily 7,2 t</button>
-                <button class="button--outline">Nazwa solówki</button>
+                <button class="button">Iveco Daily 12 palet</button>
+                <button class="button--outline">Iveco Daily 15 palet</button>
+                <button class="button--outline">Iveco Daily 16 palet</button>
+                <button class="button--outline">Iveco Daily 21 palet</button>
             </div>
         </div>
         <div class="cars-main">
@@ -48,10 +50,6 @@
                 </defs>
             </svg>
             <div>
-                <p>Ładowność</p>
-                <h3 class="h2">7,5 tony</h3>
-            </div>
-            <div>
                 <p>Ilość miejsc paletowych</p>
                 <h3 class="h2">do 12</h3>
             </div>
@@ -67,12 +65,8 @@
                 </defs>
             </svg>
             <div>
-                <p>Wymiar auta</p>
-                <h3 class="h2">8,2x4,5x6 m</h3>
-            </div>
-            <div>
                 <p>Wymiar paki</p>
-                <h3 class="h2">6x4,5x6 m</h3>
+                <h3 class="h2">505x245x280cm</h3>
             </div>
         </div>
         <div class="cars-glow"></div>

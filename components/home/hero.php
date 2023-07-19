@@ -1,4 +1,5 @@
 <section class="hero">
+    <img class="hero_video_bg" src="<?php echo THEME_URL; ?>_dev/img/bg-video.jpg" alt="">
     <div class="heroInner container">
         <div class="heroWelcome">
             <div class="heroElipse"></div>
@@ -18,10 +19,10 @@
                 <div class="heroWelcome__content">
                     <div class="heroSquare heroPerson">
                         <img src="<?php echo THEME_URL; ?>_dev/img/hero-man.png" alt="">
-                        <div class="heroCta">
+                        <a href="<?php echo esc_url(home_url('/')) ?>nasza-oferta/#offer-cars" class="heroCta">
                             auta
                             <img src="<?php echo THEME_URL; ?>_dev/img/hero-plus.svg" alt="">
-                        </div>
+                        </a>
                     </div>
                     <div class="heroRight__content">
                         <img src="<?php echo THEME_URL; ?>_dev/img/ikona-jezyk.svg" alt="">
@@ -32,7 +33,7 @@
             </div>
         </div>
     </div>
-    <div class="heroCols container--small">
+    <div class="heroCols container--small" id="about-us">
         <div class="heroCol">
             <h2 class="h1">
                 Kilka<br/>
@@ -52,12 +53,12 @@
             </h2>
         </div>
         <div class="heroCol">
-            Lorem ipsum dolor sit amet consectetur. Tellus non quis mattis sed eu pharetra consectetur. Nunc ipsum egestas nunc posuere amet volutpat sed. Turpis tellus congue massa quis feugiat magna feugiat tincidunt eu. Quam porttitor aliquam tristique dignissim imperdiet ullamcorper. Tortor morbi ornare auctor vitae morbi vitae scelerisque adipiscing elementum.<br/><br/>
-            Ipsum tempor dui viverra neque nisl phasellus ut. Praesent non suspendisse eget eget. Blandit morbi est orci ultricies nunc netus interdum 
+            <p>Jesteśmy obecni na rynku transportowym od ponad 20 lat, co pozwoliło nam zdobyć bogate doświadczenie w obszarze międzynarodowych przewozów towarowych.</p>
+            <p>Zatrudniamy wykwalifikowanych i zaangażowanych specjalistów, którzy zapewnią, że Twoje towary dotrą do celu w idealnym stanie.</p>
         </div>
         <div class="heroCol">
-            Lorem ipsum dolor sit amet consectetur. Tellus non quis mattis sed eu pharetra consectetur. Nunc ipsum egestas nunc posuere amet volutpat sed. Turpis tellus congue massa quis feugiat magna feugiat tincidunt eu. Quam porttitor aliquam tristique dignissim imperdiet ullamcorper. Tortor morbi ornare auctor vitae morbi vitae scelerisque adipiscing elementum.<br/><br/>
-            Ipsum tempor dui viverra neque nisl phasellus ut. Praesent non suspendisse eget eget. Blandit morbi est orci ultricies nunc netus interdum 
+            <p>W DBD Trans rozumiemy, że dostarczanie towarów w określonym czasie jest kluczowym czynnikiem dla każdej firmy. Dlatego nasza flota jest starannie utrzymana, a nasi kierowcy dbają o bezpieczeństwo i terminowość dostaw.</p>
+            <p>Dążymy do minimalizowania wpływu naszej działalności na środowisko naturalne, stosując nowoczesne rozwiązania i technologie, które zmniejszają nasz ślad węglowy.</p>
         </div>
     </div>
 </section>

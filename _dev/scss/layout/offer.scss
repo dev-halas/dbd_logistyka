@@ -1,12 +1,30 @@
+#offer {
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    @include responsive('tablet') {
+        transform: translateY(-12%);
+        -webkit-transform: translateY(-12%);
+        -moz-transform: translateY(-12%);
+        -ms-transform: translateY(-12%);
+        -o-transform: translateY(-12%);
+}
+}
+
 .offer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 240px 0;
     gap: 50px;
 
     @include responsive('tablet') {
         grid-template-columns: 1fr;
         justify-content: center;
         gap: 60px;
+
+        .gradient-outline-tile {
+            margin: auto;
+        }
     }
 }

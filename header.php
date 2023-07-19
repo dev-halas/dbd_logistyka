@@ -37,7 +37,7 @@
 				</nav>
 				<div class="header__right">
 					<div class="header__cta">
-						<a href="#" class="button">napisz do nas</a>
+						<a href="<?php echo esc_url(home_url('/')) ?>#contact-us" class="button">napisz do nas</a>
 					</div>
 					<ul class="header__lang">
 						<li class="header__lang--active">

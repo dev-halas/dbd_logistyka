@@ -1,4 +1,4 @@
-<div class="contact container">
+<div class="contact container" id="contact-us">
     <div class="contactInner">
         <div class="contactText">
             <h2 class="h1 gradientText">Skontaktuj się</h2>

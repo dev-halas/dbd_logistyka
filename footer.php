@@ -1,4 +1,4 @@
-	<footer class="footer">
+	<footer class="footer" id="footer">
 		<?php wp_footer(); ?>
 		<div class="footerInner container">
 			<div class="footerInner__full">
