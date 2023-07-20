@@ -22,7 +22,7 @@
             <div class="offer-cars-glow"></div>
             <div class="offer-cars-car">
                 <div class="offer-cars-main-header">
-                    <h3 class="h2">Możliwość załadunku<div>od góry, boku i dołu</div></h3>
+                    <h3 class="h2">Możliwość załadunku <div>z tyłu, z boku, od góry.</div></h3>
                     <div class="offer-cars-main-arrow">
                         <svg width="241" height="122" viewBox="0 0 241 122" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 121.505H19.7989V117.545H3.95983L3.95983 101.706L4.0381e-05 101.706L0 121.505Z" fill="url(#paint0_linear_23_556)"/>
@@ -78,7 +78,7 @@
             </div>
             <div class="offer-cars-car">
                 <div class="offer-cars-main-header">
-                    <h3 class="h2">Możliwość załadunku<div>od góry, boku i dołu</div></h3>
+                    <h3 class="h2">Możliwość załadunku <div>z tyłu, z boku, od góry.</div></h3>
                     <div class="offer-cars-main-arrow">
                         <svg width="241" height="122" viewBox="0 0 241 122" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 121.505H19.7989V117.545H3.95983L3.95983 101.706L4.0381e-05 101.706L0 121.505Z" fill="url(#paint0_linear_23_556)"/>
@@ -134,7 +134,7 @@
             </div>
             <div class="offer-cars-car">
                 <div class="offer-cars-main-header">
-                    <h3 class="h2">Możliwość <div>załadunku</div><div>od góry</div></h3>
+                    <h3 class="h2">Możliwość załadunku <div>z tyłu, z boku, od góry.</div></h3>
                     <div class="offer-cars-main-arrow">
                         <svg width="241" height="122" viewBox="0 0 241 122" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 121.505H19.7989V117.545H3.95983L3.95983 101.706L4.0381e-05 101.706L0 121.505Z" fill="url(#paint0_linear_23_556)"/>
@@ -190,7 +190,7 @@
             </div>
             <div class="offer-cars-car">
                 <div class="offer-cars-main-header">
-                    <h3 class="h2">Możliwość <div>załadunku</div><div>od góry</div></h3>
+                    <h3 class="h2">Możliwość załadunku <div>z tyłu, z boku, od góry.</div></h3>
                     <div class="offer-cars-main-arrow">
                         <svg width="241" height="122" viewBox="0 0 241 122" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 121.505H19.7989V117.545H3.95983L3.95983 101.706L4.0381e-05 101.706L0 121.505Z" fill="url(#paint0_linear_23_556)"/>

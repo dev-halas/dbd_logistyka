@@ -7,7 +7,7 @@
 			</div>
 			<div class="footerInner__colLeft">
 				<div class="footer__comapnyInfo">
-					<h3>DBD Trans</h3>
+					<h3>DBD Trans Sp. z.o.o</h3>
 					<div>
 						Aleja Powstańców Wlkp. 30 /3<br/>
 						63-700 Krotoszyn, Polska<br/>

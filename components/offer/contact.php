@@ -2,14 +2,10 @@
     <div class="contact-container container">
         <div class="contact-info">
             <div class="contact-image-people">
-                <h2 class="contact-header h1">Masz ładunek
+                <h2 class="contact-header h1">
+                    Masz ładunek
                     <div>do przewiezienia?</div>
-                    <div class="font-gradient contact-loop-parent">Zadzwoń!
-                        <span class="contact-loop">
-                            <svg width="306" height="78" viewBox="0 0 306 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M123.897 65.0437C157.712 63.5633 190.42 60.2547 223.518 55.0794C242.879 52.0521 266.522 50.038 283.855 43.6876C290.289 41.3303 297.225 37.7071 300.416 33.659C307.805 24.2857 302.405 15.9827 288.244 10.8121C256.321 -0.844521 219.468 1.71814 182.335 3.34382C145.657 4.94962 109.005 5.51089 73.5085 12.4315C51.3185 16.7578 20.2733 24.0438 6.41667 35.9473C0.771345 40.7969 0.772504 47.7528 2.79414 53.0528C6.16121 61.88 19.7845 68.0972 33.7122 71.413C56.3957 76.8134 80.4473 75.7846 104.887 74.5915C134.049 73.1679 161.104 67.28 189.371 62.7998" stroke="white" stroke-width="3" stroke-linecap="round"/>
-                            </svg>
-                        </span>
+                    <div class="font-gradient contact-loop-parent">Napisz lub zadzwoń.
                     </div>
                 </h2>
                 <div class="contact-people">
