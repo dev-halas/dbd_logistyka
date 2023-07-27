@@ -1,7 +1,7 @@
 <section id="contact_offer">
     <div class="contact-container container">
         <div class="contact-info">
-            <div class="contact-image-people">
+            <div class="contact-image-people" data-aos="fade-right" data-aos-delay="150">
                 <h2 class="contact-header h1">
                     Masz ładunek
                     <div>do przewiezienia?</div>
@@ -28,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            <div class="contact-image contact-page">
+            <div class="contact-image contact-page" data-aos="zoom-in" data-aos-delay="300">
                 <div class="heroWelcome__right">
                     <div class="heroSquare gradientBorder glassed">
                         <svg width="69" height="45" viewBox="0 0 69 45" fill="none" xmlns="http://www.w3.org/2000/svg">

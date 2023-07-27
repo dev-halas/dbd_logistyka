@@ -1,14 +1,14 @@
 <section id="numbers" class="numbers-section">
     <div class="numbers-container container--small">
-        <div class="numbers-info">
+        <div class="numbers-info" data-aos="zoom-in" data-aos-delay="300">
             <h3 class="font-gradient h1">1 095 512 km</h3>
             <p>przejechanych w 2023 roku przez <br/> pojazdy, które obsługiwaliśmy.</p>
         </div>
-        <div class="numbers-info">
+        <div class="numbers-info" data-aos="zoom-in" data-aos-delay="300">
             <h3 class="font-gradient h1">2157</h3>
             <p>obsłużonych zleceń.</p>
         </div>
-        <div class="numbers-info">
+        <div class="numbers-info" data-aos="zoom-in" data-aos-delay="300">
             <h3 class="font-gradient h1">16</h3>
             <p>przejechanych krajów.</p>
         </div>

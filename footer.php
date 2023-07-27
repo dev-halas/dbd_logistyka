@@ -1,6 +1,6 @@
 	<footer class="footer" id="footer">
 		<?php wp_footer(); ?>
-		<div class="footerInner container">
+		<div class="footerInner container" data-aos="zoom-in">
 			<div class="footerInner__full">
 				<img src="<?php echo THEME_URL; ?>_dev/img/logo.svg" alt="DBD logo" class="footerLogo">
 				<span></span>

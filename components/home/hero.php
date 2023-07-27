@@ -3,7 +3,7 @@
     <div class="heroInner container">
         <div class="heroWelcome">
             <div class="heroElipse"></div>
-            <div class="heroWelcome__left">
+            <div class="heroWelcome__left" data-aos="fade-right">
                 <h1 class="gradientText">Nowoczesna <br/>spedycja</h1>
                 <h1>dla Twoich<br/> potrzeb.</h1>
                 <div class="heroWelcome__buttons">
@@ -11,7 +11,7 @@
                     <a href="#footer" class="button--outline">kontakt</a>
                 </div>
             </div>
-            <div class="heroWelcome__right">
+            <div class="heroWelcome__right" data-aos="fade-left">
                 <div class="heroSquare gradientBorder glassed">
                     <img src="<?php echo THEME_URL; ?>_dev/img/Union.svg" alt="">
                     <h2>Śledzimy<br/>Twój<br/>towar.</h2>
@@ -33,7 +33,7 @@
             </div>
         </div>
     </div>
-    <div class="heroCols container--small" id="about-us">
+    <div class="heroCols container--small" id="about-us" data-aos="fade-up" data-aos-delay="300">
         <div class="heroCol">
             <h2 class="h1">
                 Kilka<br/>

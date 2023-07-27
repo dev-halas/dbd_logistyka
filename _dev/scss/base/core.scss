@@ -94,6 +94,9 @@ $breakpoints: (
     }
 }
 
+main {
+    overflow-x: hidden;
+}
 
 $container: 90vw;
 $containerSmall: 85vw;

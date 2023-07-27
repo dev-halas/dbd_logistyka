@@ -11,7 +11,7 @@
                 </defs>
             </svg>
         </div>
-        <div class="offer-cars-header">
+        <div class="offer-cars-header" data-aos="fade-up" data-aos-delay="150">
             <h2 class="h1"><span class="font-gradient">Flota</span><div>DBD Trans</div></h2>
             <p>W swoim asortymencie posiadamy cztery rodzaje aut. 
                 <br/>
@@ -20,7 +20,7 @@
         </div>
         <div class="offer-cars-main">
             <div class="offer-cars-glow"></div>
-            <div class="offer-cars-car">
+            <div class="offer-cars-car" data-aos="fade-up" data-aos-delay="150">
                 <div class="offer-cars-main-header">
                     <h3 class="h2">Możliwość załadunku <div>z tyłu, z boku, od góry.</div></h3>
                     <div class="offer-cars-main-arrow">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </div>
-            <div class="offer-cars-car">
+            <div class="offer-cars-car" data-aos="fade-up" data-aos-delay="150">
                 <div class="offer-cars-main-header">
                     <h3 class="h2">Możliwość załadunku <div>z tyłu, z boku, od góry.</div></h3>
                     <div class="offer-cars-main-arrow">
@@ -132,7 +132,7 @@
                     </div>
                 </div>
             </div>
-            <div class="offer-cars-car">
+            <div class="offer-cars-car" data-aos="fade-up" data-aos-delay="150">
                 <div class="offer-cars-main-header">
                     <h3 class="h2">Możliwość załadunku <div>z tyłu, z boku, od góry.</div></h3>
                     <div class="offer-cars-main-arrow">
@@ -188,7 +188,7 @@
                     </div>
                 </div>
             </div>
-            <div class="offer-cars-car">
+            <div class="offer-cars-car" data-aos="fade-up" data-aos-delay="150">
                 <div class="offer-cars-main-header">
                     <h3 class="h2">Możliwość załadunku <div>z tyłu, z boku, od góry.</div></h3>
                     <div class="offer-cars-main-arrow">
