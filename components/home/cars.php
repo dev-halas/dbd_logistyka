@@ -3,7 +3,7 @@
         <div class="cars-header-buttons">
             <div class="cars-header">
                 <h2 class="h1"><span class="font-gradient">Flota</span><div>DBD Trans</div></h2>
-                <p>W swoim asortymencie posiadamy dwa rodzaje aut. 
+                <p>W swoim asortymencie posiadamy cztery rodzaje aut. 
                     <br/>
                     Poznaj ich cechy poniżej.
                 </p>
@@ -17,7 +17,7 @@
         </div>
         <div class="cars-main">
             <div class="cars-main-header">
-                <h3 class="h2">Możliwość załadunku <div>od góry</div></h3>
+                <h3 class="h2">Możliwość załadunku <div>z tyłu, z boku, od góry.</div></h3>
                 <div class="cars-main-arrow">
                     <svg width="241" height="122" viewBox="0 0 241 122" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 121.505H19.7989V117.545H3.95983L3.95983 101.706L4.0381e-05 101.706L0 121.505Z" fill="url(#paint0_linear_23_556)"/>
@@ -83,20 +83,20 @@
             </svg>
             <div>
                 <div class="cars-description-bottom-text active">
-                    <p>Wymiar paki</p>
+                    <p>Wymiar zabudowy</p>
                     <h3 class="h2">505x245x280cm</h3>
                 </div>
                 <div class="cars-description-bottom-text">
-                    <p>Wymiar paki</p>
+                    <p>Wymiar zabudowy</p>
                     <h3 class="h2">610x245x293cm</h3>
                 </div>
                 <div class="cars-description-bottom-text">
-                    <p>Wymiar paki</p>
+                    <p>Wymiar zabudowy</p>
                     <h3 class="h2">660x245x280cm</h3>
                 </div>
                 <div class="cars-description-bottom-text">
-                    <p>Wymiar paki</p>
-                    <h3 class="h2">660x245x280cm</h3>
+                    <p>Wymiar zabudowy</p>
+                    <h3 class="h2">840x245x260cm</h3>
                 </div>
             </div>
         </div>

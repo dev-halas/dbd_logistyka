@@ -11,9 +11,9 @@
 					<div>
 						Aleja Powstańców Wlkp. 30 /3<br/>
 						63-700 Krotoszyn, Polska<br/>
-						NIP: 1234567890<br/>
-						Regon: 123456789<br/>
-						KRS: 1234567890
+						NIP: 6211839820<br/>
+						Regon: 388640730<br/>
+						KRS: 0000893721
 					</div>
 				</div>
 			</div>
@@ -27,18 +27,18 @@
 						</div>
 						<h3 class="gradientText">Marek</h3>
 						<div>
-							<a href="tel: +48 517 706 357">+48 517 706 357</a>
+							<a href="tel: +48 605 464 275">+48 605 464 275</a>
 							<a href="mailto: dispo@dbdtrans.pl">dispo@dbdtrans.pl</a>
 						</div>
 					</div>
 					<div class="footer__contactPerson">
 						<div class="footerFlags">
 							<img src="<?php echo THEME_URL; ?>_dev/img/poland.svg" alt="">
-							<img src="<?php echo THEME_URL; ?>_dev/img/germany.svg" alt="">
+							<img src="<?php echo THEME_URL; ?>_dev/img/uk.svg" alt="Wielka Brytania">
 						</div>
-						<h3 class="gradientText">Marek</h3>
+						<h3 class="gradientText">Maciej</h3>
 						<div>
-							<a href="tel: +48 517 706 357">+48 517 706 357</a>
+							<a href="tel: +48 889 783 566">+48 889 783 566</a>
 							<a href="mailto: dispo@dbdtrans.pl">dispo@dbdtrans.pl</a>
 						</div>
 					</div>

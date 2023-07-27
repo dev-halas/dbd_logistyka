@@ -7,8 +7,8 @@
                 <h1 class="gradientText">Nowoczesna <br/>spedycja</h1>
                 <h1>dla Twoich<br/> potrzeb.</h1>
                 <div class="heroWelcome__buttons">
-                    <a href="#" class="button">co oferujemy</a>
-                    <a href="#" class="button--outline">kontakt</a>
+                    <a href="http://dbdtrans.pl/nasza-oferta/" class="button">co oferujemy</a>
+                    <a href="#footer" class="button--outline">kontakt</a>
                 </div>
             </div>
             <div class="heroWelcome__right">
@@ -53,7 +53,7 @@
             </h2>
         </div>
         <div class="heroCol">
-            <p>Jesteśmy obecni na rynku transportowym od ponad 20 lat, co pozwoliło nam zdobyć bogate doświadczenie w obszarze międzynarodowych przewozów towarowych.</p>
+            <p>Mamy bogate doświadczenie w obszarze międzynarodowych przewozów towarowych.</p>
             <p>Zatrudniamy wykwalifikowanych i zaangażowanych specjalistów, którzy zapewnią, że Twoje towary dotrą do celu w idealnym stanie.</p>
         </div>
         <div class="heroCol">

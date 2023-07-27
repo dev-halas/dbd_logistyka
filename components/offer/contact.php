@@ -1,4 +1,4 @@
-<section id="contact">
+<section id="contact_offer">
     <div class="contact-container container">
         <div class="contact-info">
             <div class="contact-image-people">
@@ -16,15 +16,15 @@
                             <img src="<?php echo THEME_URL; ?>_dev/img/uk.svg" alt="Wielka Brytania">
                         </div>
                         <h3 class="font-gradient">Marek</h3>
-                        <p>+48 517 706 357 <br/> dispo@dbdtrans.pl</p>
+                        <p>+48 605 464 275 <br/> dispo@dbdtrans.pl</p>
                     </div>
                     <div class="contact-person">
                         <div class="contact-flags">
                             <img src="<?php echo THEME_URL; ?>_dev/img/poland.svg" alt="Polska">
-                            <img src="<?php echo THEME_URL; ?>_dev/img/germany.svg" alt="Niemcy">
+                            <img src="<?php echo THEME_URL; ?>_dev/img/uk.svg" alt="Wielka Brytania">
                         </div>
                         <h3 class="font-gradient">Maciej</h3>
-                        <p>+48 517 706 357 <br/> dispo@dbdtrans.pl</p>
+                        <p>+48 889 783 566 <br/> dispo@dbdtrans.pl</p>
                     </div>
                 </div>
             </div>

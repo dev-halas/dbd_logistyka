@@ -13,7 +13,7 @@
         </div>
         <div class="offer-cars-header">
             <h2 class="h1"><span class="font-gradient">Flota</span><div>DBD Trans</div></h2>
-            <p>W swoim asortymencie posiadamy dwa rodzaje aut. 
+            <p>W swoim asortymencie posiadamy cztery rodzaje aut. 
                 <br/>
                 Poznaj ich cechy poniżej.
             </p>
@@ -55,7 +55,7 @@
                             </defs>
                         </svg>
                         <div>
-                            <p>Wymiar paki</p>
+                            <p>Wymiar zabudowy</p>
                             <h3 class="h2">505x245x280cm</h3>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                             </defs>
                         </svg>
                         <div>
-                            <p>Wymiar paki</p>
+                            <p>Wymiar zabudowy</p>
                             <h3 class="h2">610x245x293cm</h3>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                             </defs>
                         </svg>
                         <div>
-                            <p>Wymiar paki</p>
+                            <p>Wymiar zabudowy</p>
                             <h3 class="h2">660x245x280cm</h3>
                         </div>
                     </div>
@@ -223,7 +223,7 @@
                             </defs>
                         </svg>
                         <div>
-                            <p>Wymiar paki</p>
+                            <p>Wymiar zabudowy</p>
                             <h3 class="h2">840x245x260cm</h3>
                         </div>
                     </div>

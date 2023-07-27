@@ -217,6 +217,7 @@ $containerMobile: 90vw;
 
     &.gradientBorder {
         &:before {
+            z-index: -1;
             border-radius: 30px;
             -webkit-border-radius: 30px;
             -moz-border-radius: 30px;
